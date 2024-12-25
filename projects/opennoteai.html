@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abimalek Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <a href="../" class="">Home</a>
+            <a href="../projects.html" class="selected">Projects</a>
+            <div class="links">
+                <a href="https://linkedin.com/in/abimalek">
+                    <img class="linkphoto" src="../images/linkedin.svg"/>
+                </a>
+                <a href="https://github.com/abimek">
+                    <img class="linkphoto" src="../images/github.svg"/>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="photocontainer">
+        <h1 class="project_header">OpenNote AI</h1>
+        <p class="description">
+            A project I made when ChatGPT was starting to get popular. I wanted to connect
+            ChatGPT to my notes, so I enabled it to do so by creating a website that wrapped 
+            ChatGPT that allowed the AI to make queires for note information, which my backend then
+            semantically searched for using vector embeddings in pinecone. I also developed an executable
+            that would allow users to upload their notes to PineconeDB.
+        </p>
+        <br>
+        <h3 class="align">Embeddings:</h3>
+        <p class="description">
+            I first need to take the users notes, and store them as embeddings that I could
+            then search for using semantic search, so that ChatGPT could find them. In order to do that,
+            I decided to make a Rust based application for my users. The first step was to create
+            a Rust crate around the Pinecone HTTP Api, which I did. I focused a lot on designing this 
+            properly. I've attached some example code below. You can find the project <a href="https://github.com/abimek/pinenut">HERE</a>
+        </p>
+        <img class="singlephoto" src="../images/pinenut.png"/>
+        <p class="description">
+            The executable was a little simpler, but I did decide to overcomplicate it by using far too much
+            async await and "optimization". This optimization probably made it slower to be honest, but here's an image.
+        </p>
+        <img class="singlephoto" src="../images/pinepass.png"/>
+        <br>
+        <br>
+        <br>
+        <h3 class="align">Backend:</h3>
+        <p class="description">
+            Since the websites users needed to login, and I needed to connect to ChatGPT,
+            I decided to make a backend server in Go that would handle streaming tokens, querying
+            Pinecone for embeddings based on ChatGPT's query, and user sessions / logging in. This
+            can be found <a href="https://github.com/abimek/opennote">HERE</a>
+        </p>
+        <br>
+        <br>
+        <br>
+        <h3 class="align">Website:</h3>
+        <p class="description">
+            I also design the website myself. The code for the website is
+            <a href="https://github.com/abimek/opennote_website">HERE</a>
+        </p>
+        <img class="singlephoto" src="../images/opennote.png"/>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abimalek Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <a href="/" class="">Home</a>
+            <a href="/projects.html" class="selected">Projects</a>
+            <div class="links">
+                <a href="https://linkedin.com/in/abimalek">
+                    <img class="linkphoto" src="images/linkedin.svg"/>
+                </a>
+                <a href="https://github.com/abimek">
+                    <img class="linkphoto" src="images/github.svg"/>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="welcome">Projects</h1>
+        <p class="description">
+            Take a look at some of the things I've made and am proud of. Primarily software
+            and electrical projects, both personal and done in group settings. Enjoy :)
+        </p>
+        <a href="projects/motorsports_dashboard.html" class="project">
+            <h2 class="project_title">Motorsports Dashboard</h2>
+            <img class="project_photo" src="images/motorsportspcb.png"/>
+            <img class="project_photo" src="images/motorsportspcb2.png"/>
+            <p class="description">
+                My freshmen year project as a member of MIT Motorsports: Designing
+                for the dashboard electronics and driver display. Incharge of also firmware for 
+                the board.
+            </p>
+        </a>
+        <a href="projects/opennoteai.html" class="project">
+            <h2 class="project_title">OpenNoteAI: ChatGPT + Notes</h2>
+            <img class="project_photo" src="images/opennote.png"/>
+            <img class="project_photo" src="images/pinepass.png"/>
+            <p class="description">
+                This was a personal project I did over the summer after learning about ChatGPT. I wanted
+                to integrate the model with my personal notes, which led to me create my own website wrapper
+                that fed in notes using the function call api, enabling GPT to query for related notes. These
+                notes were sourced from a PineconeDB, which are uploaded as embeddings alongside text metadata
+                using the binary applicaiton built in Rust.
+            </p>
+        </a>
+        <a href="https://github.com/CustomiesDevs/Customies" class="project">
+            <h2 class="project_title">Customies/CustomX</h2>
+            <p class="description">
+                My first major project, where I implemented custom blocks and items in minecraft
+                bedrock edition. Currently is widely used in the bedrock community, with 100+ github stars. I had 
+                initially developed my very own version (CustomX), before partnering up with the only other similar type of project
+                which we later open sourced.
+            </p>
+        </a>
+        <a href="projects/cylexsky.html" class="project">
+            <h2 class="project_title">CylexSky</h2>
+            <img class="project_photo_cylex" src="images/cylex.png"/>
+            <p class="description">
+                This was a summer long project that I worked on. Cylex was meant to be a minecraft server
+                that would use the custom block and item features me and a couple friends created / popularized
+                on a commerical server. It is around 30k lines of code (if that means anything to you), and follows
+                generally good OOP practices.
+            </p>
+        </a>
+        <hr class="bottomdivider">
+        <h5 class="contactinfo">Contact email: <a href="mailto:abimek@mit.edu">abimek@mit.edu</a></h5>
+        <h5 class="contactinfo">Icons: Simple Icons<h5>
+    </div>
+</body>
+</html>

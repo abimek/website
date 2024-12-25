@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.nav {
+    color: green;
+    font-size: 17px;
+}
+
+.selected {
+    background: #e1e3e1;
+}
+
+.nav a:hover {
+    background: #e1e3e1;
+}
+
+.nav a {
+    display: inline;
+    text-decoration: none;
+    color: #4a4a4a;
+    padding: 13px;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 40px;
+    margin: -2px;
+
+}
+
+.links {
+    display: inline-block;
+    margin-right: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.links a {
+}
+
+.links a:hover {
+    background: #ffffff;
+}
+
+.linkphoto {
+    width: 30px;
+    padding: 0;
+}
+
+
+.welcome {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.welcome_sub {
+    font-size: 30px;
+    color: #3b3b3b;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.description {
+    color: #434343;
+    font-size: 18px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+
+.bottomdivider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.contactinfo {
+    color: #434343;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.contactinfo a {
+    color: #5d5d5d;
+}
+
+.profilephoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 180px;
+    border-radius: 300px;
+}
+
+.project_photo {
+    width: 230px;
+}
+
+.project_photo_cylex {
+    width: 100px;
+}
+
+.project {
+    color: #3b3b3b;
+    text-decoration: none;
+    padding: 4px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.project:hover {
+    background: #e9e9e9;
+    border-radius: 10px;
+}
+
+.align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.photocontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.schematicphoto {
+    margin-left: 20px;
+    width: 350px;
+
+}
+
+.project_header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.project_sub_header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.singlephoto {
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 500px;
+}
+
+.list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
