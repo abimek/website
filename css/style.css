@@ -82,7 +82,7 @@ html, body {
 
 @media (max-width: 530px) {
     .container {
-        width: 100vw;
+        width: 95vw;
     }
 }
 
@@ -164,9 +164,22 @@ html, body {
     margin-right: auto;
 }
 
+.photocontainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+@media (max-width: 530px) {
+    .photocontainer {
+        width: 95vw;
+    }
+}
+
 .schematicphoto {
     margin-left: 20px;
-    width: 350px;
+    width: 300px;
 
 }
 
@@ -192,6 +205,6 @@ html, body {
 
 .list {
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
 }
