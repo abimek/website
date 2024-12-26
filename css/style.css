@@ -68,6 +68,19 @@ body {
     text-align: center;
 }
 
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+@media (max-width: 530px) {
+    .container {
+        width: 100vw;
+    }
+}
+
 .description {
     color: #434343;
     font-size: 18px;
@@ -75,15 +88,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-
+    overflow-wrap: break-word;
 }
+
+
 
 .bottomdivider {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
     margin-top: 30px;
 }
 
@@ -126,7 +139,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
 }
 
 .project:hover {
@@ -145,7 +157,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
 }
 
 .schematicphoto {
@@ -163,19 +174,19 @@ body {
 .project_sub_header {
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 80px;
     font-size: 20px;
 }
 
 .singlephoto {
     margin-top: 30px;
-    margin-left: 140px;
-    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .list {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
 }
